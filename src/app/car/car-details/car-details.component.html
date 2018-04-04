@@ -1,0 +1,20 @@
+<h1 style="background-color: cadetblue; text-align: center; margin: 0;">Tis is the Detail Component</h1>
+<table class="table table-dark">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Make</th>
+    <th scope="col">Model</th>
+    <th scope="col">Details</th>
+    <th scope="col">Color</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr  *ngFor="let car of cars">
+    <th scope="col">{{ car.make }}</th>
+    <th scope="col">{{ car.model }}</th>
+    <th scope="col">{{ car.details }}</th>
+    <th scope="col">{{ car.color }}</th>
+  </tr>
+
+</table>

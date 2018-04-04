@@ -21,9 +21,11 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
-    "core-js": "^2.4.1",
-    "rxjs": "^5.5.6",
-    "zone.js": "^0.8.19"
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.5.4",
+    "firebase": "^4.12.1",
+    "rxjs": "^5.5.8",
+    "zone.js": "^0.8.24"
   },
   "devDependencies": {
     "@angular/cli": "~1.7.3",
@@ -44,5 +46,16 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusYgonzalez/cars-app.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jesusYgonzalez/cars-app/issues"
+  },
+  "homepage": "https://github.com/jesusYgonzalez/cars-app#readme"
 }
