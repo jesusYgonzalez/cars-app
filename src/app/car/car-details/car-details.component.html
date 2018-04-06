@@ -11,6 +11,7 @@
   </thead>
   <tbody>
   <tr  *ngFor="let car of cars">
+    <th scope="col">{{ car.id }}</th>
     <th scope="col">{{ car.make }}</th>
     <th scope="col">{{ car.model }}</th>
     <th scope="col">{{ car.details }}</th>
